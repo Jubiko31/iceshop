@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en ka">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel= "shortcut icon" href="icons8-foam-bubbles-48.png" type="image/png">
+    <link rel="stylesheet" href="shop_style.css">
+	<link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <title>Winter is Coming! - Online Gift Shop</title>
+</head>
+<body>
+    <header class="head" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav_logo">@Juba</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">HOME</a></li>
+                    <li class="nav_item"><a href="#featured" class="nav_link">Featured</a></li>
+                    <li class="nav_item"><a href="#collections" class="nav_link">Collections</a></li>
+                    <li class="nav_item"><a href="#new" class="nav_link">New</a></li>
+                    <li class="nav_item"><a href="./store.html" class="nav_link" id="shop_link">Shop</a></li>
+                </ul>
+            </div>
+            <div class="nav_shop">
+                <i class="bx bx-shopping-bag shoplist_img"></i>
+            </div>
+        </nav>
+    </header>
+<!-------------------------MAIN CONTENT------------------------->
+    <main class="main">
+        <section class="home" id="home">
+			<div class="swiper home-swiper">
+				<div class="swiper-wrapper">
+					<section class="swiper-slide">
+						<div class="home_content grid">
+							<div class="home_group">
+								<img src="products/main.jpg" alt="" class="home_img">
+								<div class="home_indicator"></div>
+								
+								<div class="home_details-img">
+									<h4 class="home_details-title">No One</h4>
+									<span class="home_details-subtitle" id="arya">Funko Pop! Game of Thrones</span>
+							</div>
+							<div class="home_button">
+								<a href="#" class="button">Buy Now</a>
+								<a href="#" class="button-link button-flex">
+									Track Record
+									<i class='bx bx-right-arrow-alt button_icon'></i>
+								</a>
+							</div>
+						</div>
+					</section>
+					
+					<section class="swiper-slide">
+						<div class="home_content grid">
+							<div class="home_group">
+								<img src="products/harry.png" alt="" class="home_img" id="potter">
+								<div class="home_indicator"></div>
+								
+								<div class="home_details-img">
+									<span class="home_details-subtitle" style="color:aliceblue;">Harry Potter Gift Box</span>
+							</div>
+							<div class="home_button">
+								<a href="#" class="button">Buy Now</a>
+								<a href="#" class="button-link button-flex">
+									Track Record
+									<i class='bx bx-right-arrow-alt button_icon'></i>
+								</a>
+							</div>
+						</div>
+					</section>
+					
+					<section class="swiper-slide">
+						<div class="home_content grid">
+							<div class="home_group">
+								<img src="products/hodor.png" alt="" class="home_img">
+								<div class="home_indicator"></div>
+								
+								<div class="home_details-img">
+									<h4 class="home_details-title">Hodor</h4>
+									<span class="home_details-subtitle">Hodor hodor hodor, hodor!</span>
+							</div>
+							<div class="home_buttons">
+								<a href="#" class="button">Hodor!</a>
+								<a href="#" class="button-link button-flex">
+									Hodor...
+									<i class='bx bx-right-arrow-alt button_icon'></i>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+<!--------------------------------------FEATURED------------------------------>
+		<section class="section featured" id="featured">
+			<h2 class="section_title">FEATURED</h2>
+
+			<div class="featured_container bd-grid">
+				<article class="product">
+					<div class="product-sale">SALE</div>
+					<img src="products/trees.png" alt="" class="product_img">
+					<span class="sneakername">Christmas Trees</span>
+					<span class="product-price">$49.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+
+				<article class="product">
+					<div class="product-sale">SALE</div>
+					<img src="products/unicorns.png" alt="" class="product_img">
+					<span class="sneakername">Unicorn Toys</span>
+					<span class="product-price">$39.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+
+				<article class="product">
+					<div class="product-sale">SALE</div>
+					<img src="products/got.png" alt="" class="product_img">
+					<span class="sneakername">GOT Mug</span>
+					<span class="product-price">$54.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+			</div>
+		</section>
+
+<!------------------------COLLECTIBLES---------------------------------------->
+		<section class="collection section" id="collections">
+			<h2 class="section_title">COLLECTIONS</h2>
+			<div class="collection_container bd-grid">
+				<div class="collection_card">
+					<div class="collection_data">
+						<h3 class="collection_name">New Year Gifts</h3>
+						<p class="collection_desc">2022!</p>
+						<a href="#" class="button-light">Explore <i class="bx bx-right-arrow-alt button-icon"></i></a>
+					</div>
+					<img src="products/newy.png" alt="New Year Gifts" class="collection_img">
+				</div>
+				<div class="collection_card">
+					<div class="collection_data">
+						<h3 class="collection_name">Other Gifts</h3>
+						<p class="collection_desc">Unique and Creative</p>
+						<a href="#" class="button-light">Explore <i class="bx bx-right-arrow-alt button-icon"></i></a>
+					</div>
+					<img src="products/gifts.png" alt="New Year Gifts" class="collection_img">
+				</div>
+				<div class="collection_card">
+					<div class="collection_data">
+						<h3 class="collection_name">Films</h3>
+						<p class="collection_desc">Game of Thrones</p>
+						<a href="#" class="button-light">Explore <i class="bx bx-right-arrow-alt button-icon"></i></a>
+					</div>
+					<img src="products/mug3.png" alt="New Year Gifts" class="collection_img">
+				</div>
+			</div>
+		</section>
+
+		<section class="sale section">
+			<h2 class="section_title">OFFER</h2>
+			<div class="sale_container bd-grid">
+				<div class="sale_data">
+					<h3 class="sale_name">50% OFF</h3>
+					<p class="sale_desc">Message from "Tovlis Babu"</p>
+					<a href="#" class="button btn">Shop Now</a>
+				</div>
+				<img src="products/babu.png" alt="babu" class="sale_img">
+			</div>
+		</section>
+<!---------------------------------NEW--------------------------------->
+		<section class="new section" id="new">
+			<h2 class="section_title">NEW ARRIVALS</h2>
+			<div class="new_container bd-grid">
+				<div class="new_clothes">
+					<img src="products/stark.png" alt="" class="new_clothes-img">
+					<h3 class="new_title">New Jackets</h3>
+					<span class="new_price">from $34.99</span>
+					<a href="#" class="button-light">View Collection <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</div>
+
+				<div class="new_items">
+					<div class="new_item-card">
+						<img src="products/gift1.png" alt="" class="new_item-img">
+						<div class="new_item-overlay">
+							<a href="" class="button">Add to Cart</a>
+						</div>
+					</div>
+
+					<div class="new_item-card">
+						<img src="products/gift2.png" alt="" class="new_item-img">
+						<div class="new_item-overlay">
+							<a href="" class="button">Add to Cart</a>
+						</div>
+					</div>
+
+					<div class="new_item-card">
+						<img src="products/gift3.png" alt="" class="new_item-img">
+						<div class="new_item-overlay">
+							<a href="" class="button">Add to Cart</a>
+						</div>
+					</div>
+
+					<div class="new_item-card">
+						<img src="products/gogh.png" alt="" class="new_item-img">
+						<div class="new_item-overlay">
+							<a href="" class="button">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+<!---------------------------NEWSLETTER------------------------------------->
+		<section class="newsletter section">
+			<div class="newsletter_container bd-grid">
+				<div>
+					<h3 class="newsletter_title">
+						Subscribe and Get <br> 20% OFF
+					</h3>
+					<p class="newsletter_desc">Get 20% discount for all products!</p>
+				</div>
+
+				<form action="" class="newsletter_subs">
+					<input type="text" class="input" placeholder="@example.com">
+					<a href="#" class="button">Subscribe</a>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer section">
+			<div class="footer_container bd-grid">
+				<div class="footer_box">
+					<h3 class="footer_title">IceShop <span class="ice">💎</span></h3>
+					<p class="footer_desc">Unique and creative gifts to buy, 2022</p>
+				</div>
+
+				<div class="footer_box">
+					<h3 class="footer_title">EXPLORE</h3>
+					<ul>
+						<li><a href="#home" class="footer_link"></a>Home</li>
+						<li><a href="#featured" class="footer_link"></a>Featured</li>
+						<li><a href="#collections" class="footer_link"></a>Collectibles</li>
+						<li><a href="#new" class="footer_link"></a>New</li>
+					</ul>
+				</div>
+
+				<div class="footer_box">
+					<h3 class="footer_title">SUPPORT</h3>
+					<ul>
+						<li><a href="#home" class="footer_link"></a>Product Help</li>
+						<li><a href="#featured" class="footer_link"></a>Customer Care</li>
+						<li><a href="#collections" class="footer_link"></a>Authorized Service</li>
+					</ul>
+				</div>
+
+				<div class="footer_box">
+					<a href="#" class="socials"><i class="bx bx1-facebook"></i></a>
+					<a href="#" class="socials"><i class="bx bx1-instagram"></i></a>
+					<a href="#" class="socials"><i class="bx bx1-twitter"></i></a>
+				</div>
+			</div>
+
+			<p class="copy">&#169; 2021. All Rights Reserved.<br>This website just represents example of eccommerce website.</p>
+		</footer>
+
+	</main>
+
+<script src="swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+<script> 
+	let homeSwiper = new Swiper(".home-swiper", {
+    spaceBetween: 30,
+    loop: 'true',
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+});
+</script>
+</body>
+</html>

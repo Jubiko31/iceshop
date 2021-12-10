@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop_style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>Store</title>
+</head>
+<body>
+    <header class="head" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav_logo">@Juba</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="./index.html" class="nav_link">HOME</a></li>
+                    <li class="nav_item"><a href="#./index.htmlfeatured" class="nav_link">Featured</a></li>
+                    <li class="nav_item"><a href="#collections" class="nav_link">Collections</a></li>
+                    <li class="nav_item"><a href="#" class="nav_link active" id="shop_link">Shop</a></li>
+                </ul>
+            </div>
+            <div class="nav_shop">
+                <i class="bx bx-shopping-bag shoplist_img"></i>
+            </div>
+        </nav>
+    </header>
+<!---------------------------MAIN----------------------->
+    <main class="shop_main">
+        <section class="section featured" id="shop">
+			<h2 class="section_title">All Products</h2>
+
+			<div class="featured_container bd-grid">
+				<article class="product">
+                    <div class="product-sale">NEW</div>
+					<img src="products/jacket2.png" alt="" class="product_img">
+					<span class="sneakername">Winter Jacket</span>
+					<span class="product-price">$69.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+
+				<article class="product">
+					<div class="product-sale">NEW</div>
+					<img src="products/mug3.png" alt="" class="product_img">
+					<span class="sneakername">Lanister Mug</span>
+					<span class="product-price">$46.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+
+				<article class="product">
+                    <div class="product-sale">SALE</div>
+					<img src="products/trees.png" alt="" class="product_img">
+					<span class="sneakername">Christmas Trees</span>
+					<span class="product-price">$49.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+                    <div class="product-sale">SALE</div>
+					<img src="products/unicorns.png" alt="" class="product_img">
+					<span class="sneakername">Unicorns</span>
+					<span class="product-price">$39.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/daenerys.png" alt="" class="product_img">
+					<span class="sneakername">Daenerys Targaryen</span>
+					<span class="product-price">$30</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/main.jpg" alt="" class="product_img">
+					<span class="sneakername">No One</span>
+					<span class="product-price">$???</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/snow.png" alt="" class="product_img">
+					<span class="sneakername">Snow Shirt</span>
+					<span class="product-price">$9.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/tyrion_son_of_tywin.jpg" alt="" class="product_img">
+					<span class="sneakername">He drinks and know somethings</span>
+					<span class="product-price">$19.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/gogh.png" alt="" class="product_img">
+					<span class="sneakername">Van Gogh Painting</span>
+					<span class="product-price">79.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/book1.png" alt="" class="product_img">
+					<span class="sneakername">ASoIaF Books (Arete)</span>
+					<span class="product-price">$10 each</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+				<article class="product">
+					<img src="products/gift1.png" alt="" class="product_img">
+					<span class="sneakername">Gift Box</span>
+					<span class="product-price">89.99</span>
+					<a href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+				</article>
+			</div>
+
+            <div class="item_pages bd-grid">
+                <div>
+                    <span class="item_pag">1</span>
+                    <span class="item_pag">2</span>
+                    <span class="item_pag">3</span>
+                    <span class="item_pag">4</span>
+                    <span class="item_pag">&#8594;</span>
+                </div>
+            </div>
+		</section>
+
+        <footer class="footer section">
+			<div class="footer_box">
+				<h3 class="footer_title">SUPPORT</h3>
+				<ul>
+				    <li><a href="#home" class="footer_link"></a>Product Help</li>
+				    <li><a href="#featured" class="footer_link"></a>Customer Care</li>
+				    <li><a href="#collections" class="footer_link"></a>Authorized Service</li>
+				</ul>
+			</div>
+
+			<div class="footer_box">
+				<a href="#" class="socials"><i class="bx bx1-facebook"></i></a>
+				<a href="#" class="socials"><i class="bx bx1-instagram"></i></a>
+				<a href="#" class="socials"><i class="bx bx1-twitter"></i></a>
+			</div>
+		<p class="copy">&#169; 2021. All Rights Reserved.<br>This website just represents example of eccommerce website.</p>
+		</footer>
+    </main>
+
+<script src="main.js"></script>
+
+</body>
+</html>
