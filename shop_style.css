@@ -652,7 +652,7 @@ img {
         padding-top: 0;
     }
     .home_img {
-        height: max-content;
+        height: 550px;
         transform: translateY(-3rem);
     }
     .sale_img {
